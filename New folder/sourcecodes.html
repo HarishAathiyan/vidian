@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<style>
+h1 {
+ color: rgb(255, 251, 0);
+  animation-name: example;
+  animation-duration: 4s;
+text-align: center;
+font-size: 50px;
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+@keyframes example {
+  from {color: red;}
+  to {color: yellow;}
+}
+@keyframes example1 {
+  from {background-color: rgb(176, 27, 196);}
+  to {background-color: rgb(231, 231, 12);}
+  from {color: rgb(231, 231, 12);}
+  to {color:rgb(176, 27, 196);}
+}
+/* The navbar container */
+.topnav {
+  overflow: hidden;
+  background-color: rgb(8, 5, 7);
+}
+.read {
+color: yellow;
+}
+.download {
+color: yellow;
+font-size: 50px;
+}
+/* Navbar links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #c08941;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: rgb(18, 157, 161);
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Links - change color on hover */
+.topnav a:hover {
+animation-name: example1;
+animation-duration: 0.5s;
+  background-color: rgb(231, 231, 12);
+  color: rgb(230, 15, 15);
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body {
+background-color: rgb(55, 187, 143);
+}   
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+.endmessage{
+color: rgb(253, 160, 38);    
+}
+.download:link, .download:visited {
+  background-color: white;
+  color: black;
+  border: 10px solid green;
+  padding: 1px 2px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.download:hover, .download:active {
+  background-color: green;
+  color: white;
+}
+</style>
+<html>
+    <head title="about us">
+    </head>
+    <h1>RGI</h1>
+    <div class="topnav">
+        <a  href="index.html">BACK TO HOME</a>
+        <a href="#">WEB PRODUCTS</a>
+        <a href="#">SOURCE CODES</a>
+        <a href="#">FEEDBACK</a>
+        <a href="#">DONATE</a>
+</div>
+
+<a class="download" href="https://github.com/HarishAathiyan/ESP_OS/archive/refs/heads/v1.0.zip" target="_blank">Download</a>
+</html>
