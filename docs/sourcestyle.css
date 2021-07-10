@@ -1,24 +1,5 @@
-html {
-  overflow: auto;
-}
 
-html,
-body,
-div,
-iframe {
-  margin: 0px;
-  padding: 0px;
-  height: 100%;
-  border: none;
-}
 
-iframe {
-  display: block;
-  width: 100%;
-  border: none;
-  overflow-y: auto;
-  overflow-x: hidden;
-}
 .heading {
  color: #f3ca20 ;
   animation-name: example;
@@ -76,7 +57,8 @@ background-color:  #000000;
   margin-top: 20px;
 }
 .endmessage{
-color: rgb(253, 160, 38);    
+color: rgb(253, 160, 38);
+text-align: center;    
 }
 .description{
  color: #12a4d9;
@@ -88,9 +70,4 @@ color: rgb(253, 160, 38);
 color: #f3ca20;
 font: bold;
 
-}
-
-.mainheading{
-color: #f3ca20;
-font: bold;  
 }
