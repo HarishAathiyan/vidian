@@ -1,2 +1,2 @@
 # vidian
-vidian website related private file
+vidian website related files
