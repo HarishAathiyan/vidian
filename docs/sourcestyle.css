@@ -1,8 +1,7 @@
+<!DOCTYPE html>
+<style>
 
-.download {
-color: yellow;
-font-size: 10px;
-}
+
 @keyframes downloadanimation {
   from {background-color:black;}
   to {background-color: rgb(213, 226, 32);}
@@ -11,6 +10,12 @@ font-size: 10px;
   from {border-color:rgb(196, 146, 55);}
   to {border-color: blue;}
 }
+
+.download {
+color: yellow;
+font-size: 10px;
+}
+
 .download:link, .download:visited {
   background-color: black;
   color: yellow;
@@ -27,6 +32,12 @@ animation-duration: 1s;
   background-color: rgb(213, 226, 32);
   color: black;
 }
+</style>
+<html>
+<a class="download" href="https://github.com/HarishAathiyan/ESP_OS/archive/refs/heads/v1.0.zip" target="_blank">Download</a>
+</html>
+
+
 
 .heading {
  color: #f3ca20 ;
