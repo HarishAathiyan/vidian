@@ -1,7 +1,7 @@
 
 .download {
 color: yellow;
-font-size: 50px;
+font-size: 10px;
 }
 @keyframes downloadanimation {
   from {background-color:black;}
