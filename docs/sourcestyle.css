@@ -7,6 +7,8 @@
 text-align: center;
 font-size: 50px;
 font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+
 }
 .newsheading{
 color: #f3ca20;
@@ -15,6 +17,14 @@ background-color: #322e2f;
 @keyframes example {
   from {color: red;}
   to {color: yellow;}
+}
+@keyframes backroundeffect {
+  from {background-color: rgb(0, 0, 0);}
+  to {background-color: rgb(63, 63, 63);}
+}
+@keyframes reversebackroundeffect {
+  from {background-color: rgb(63, 63, 63);}
+  to {background-color: rgb(0, 0, 0);}
 }
 @keyframes example1 {
   from {background-color: rgb(176, 27, 196);}
@@ -48,7 +58,14 @@ animation-duration: 0.5s;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .bodyweb {
-background-color:  #000000;
+background-image: url("https://media.giphy.com/media/26n6G8lRMOrYC6rFS/giphy.gif");
+background-color:  #0000;
+animation-name:backroundeffect;
+animation-duration: 2s;
+animation-name:reversebackroundeffect;
+animation-duration: 2s;
+background-color: rgb(0, 0, 0);
+
 }   
 .footer {
   padding: 20px;
