@@ -1,40 +1,5 @@
 
 
-
-@keyframes downloadanimation {
-  from {background-color:black;}
-  to {background-color: rgb(213, 226, 32);}
-  from {color:yellow;}
-  to {color: black;}
-  from {border-color:rgb(196, 146, 55);}
-  to {border-color: blue;}
-}
-
-.download {
-color: yellow;
-font-size: 10px;
-}
-
-.download:link, .download:visited {
-  background-color: black;
-  color: yellow;
-  border: 5px solid rgb(196, 146, 55);
-  padding: 5px 5px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-}
-
-.download:hover, .download:active {
-  animation-name: downloadanimation;
-animation-duration: 1s;
-  background-color: rgb(213, 226, 32);
-  color: black;
-}
-
-
-
-
 .heading {
  color: #f3ca20 ;
   animation-name: example;
@@ -104,10 +69,5 @@ text-align: center;
 .webproductsheading{
 color: #f3ca20;
 font: bold;
-}
 
-.read{
-color: #12a4d9;
- font: bold;
 }
-
