@@ -56,11 +56,11 @@ animation-duration: 0.5s;
 background-color: #322e2f;
 
 } 
-.description:hover {
+.moreinfo:hover {
   animation-name: example1;
   animation-duration: 0.5s;
     background-color: rgb(231, 231, 12);
-    color: rgb(230, 15, 15);
+    color: blue;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }  
 .footer {
@@ -85,6 +85,13 @@ text-align: center;
 .webproductsheading{
 color: #f3ca20;
 font: bold;
+
+}
+.moreinfo{
+  color: #df1d0f;
+  font-size: 20px;   
+  text-decoration: none;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
 
