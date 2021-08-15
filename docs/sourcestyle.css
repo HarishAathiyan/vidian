@@ -6,13 +6,15 @@
   animation-duration: 4s;
 text-align: center;
 font-size: 50px;
-font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-family: Courier;
 
 
 }
 .newsheading{
+
 color: #f3ca20;
 background-color: #322e2f;
+font-family: Courier;
 }
 @keyframes example {
   from {color: red;}
@@ -51,9 +53,16 @@ animation-duration: 0.5s;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .bodyweb {
-background-image: url("https://media.giphy.com/media/26n6G8lRMOrYC6rFS/giphy.gif");
+background-color: #322e2f;
 
-}   
+} 
+.description:hover {
+  animation-name: example1;
+  animation-duration: 0.5s;
+    background-color: rgb(231, 231, 12);
+    color: rgb(230, 15, 15);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }  
 .footer {
   padding: 20px;
   text-align: center;
@@ -65,9 +74,12 @@ color: rgb(253, 160, 38);
 text-align: center;    
 }
 .description{
+  
  color: #12a4d9;
  font-size: 20px;   
  text-decoration: none;
+ font-family: 'Courier New', Courier, monospace;
+
 }
 
 .webproductsheading{
@@ -75,3 +87,4 @@ color: #f3ca20;
 font: bold;
 
 }
+
